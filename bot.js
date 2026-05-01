@@ -7,7 +7,6 @@ process.on('uncaughtException', err => {
 });
 
 const { Client, GatewayIntentBits, EmbedBuilder, Partials } = require('discord.js');
-const Canvas = require('canvas');
 
 // =====================
 // BOT CLIENT (FIXED INTENTS)
