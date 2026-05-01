@@ -1,19 +1,11 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "canvas": "^3.2.3",
-    "discord.js": "^14.26.3",
-    "fs": "^0.0.1-security",
-    "sqlite3": "^6.0.1"
+    "discord.js": "^14.0.0"
   }
 }
